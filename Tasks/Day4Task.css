@@ -1,0 +1,26 @@
+/* Element Selector */
+
+h1 {
+    background-color: pink;
+
+}
+
+/* Class Selector */
+
+.p {
+    color: gold;
+    background-color: black;
+}
+
+/* ID Selector */
+
+*list {
+    color: black;
+    background-color: gold;
+}
+
+/* An imported Font */
+
+.messi {
+    font-family: 'Open Sans', sans-serif;
+}
