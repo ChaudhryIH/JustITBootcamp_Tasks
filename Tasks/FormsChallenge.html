@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Create Account</h1>
+    <form action="challengeconf.html">
+        <label for="userName">Username</label>
+        <input id="userName" type="text" placeholder="Username..." required maxlength="13">
+        <br>
+        <br>
+        <label for="passWord">Password</label>
+        <input id="passWord" type="password" maxlength="24" required>
+        <br>
+        <br>
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="email@mail.com" required>
+        <br>
+        <br>
+        <label for="dob">Date Of Birth</label>
+        <input id="dob" type="date" required>
+        <br>
+        <br>
+        <fieldset>
+            <legend> Choose Your Characters Gender
+            </legend>
+            <div>
+                <input id="male" type="checkbox">
+                <label for="male">Male</label>
+            </div>
+
+            <div>
+                <input id="female" type="checkbox">
+                <label for="female">Female</label>
+            </div>
+        </fieldset>
+        <br>
+        <br>
+        <label for="avatar">Choose Profile Picture:</label>
+        <br>
+        <input id="avatar" type="file" accept="image/png, image/jpeg" required>
+        <br>
+        <br>
+        <label for="chardesc">Character Description</label>
+        <textarea id="chardesc" cols="90" rows="1" maxlength="200"></textarea>
+        <br>
+        <br>
+        <label for="race">Race</label>
+        <select name="Race" id="race" autofocus>
+            <option value="random">Random</option>
+            <option value="white">White</option>
+            <option value="black">Black</option>
+            <option value="asian">Asian</option>
+            <option value="mixed">Mixed</option>
+            <option value="hispanic">Hispanic</option>
+        </select>
+        <br>
+        <br>
+        <input id="newsLetter" type="radio">
+        <label for="newsLetter">I Consent To Receiving The Monthly Newsletter</label>
+        <br>
+        <br>
+        <input type="reset" value="Clear">
+        <br>
+        <br>
+        <input type="submit">
+    </form>
+
+</body>
+
+</html>
